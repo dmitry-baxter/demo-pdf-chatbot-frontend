@@ -1,0 +1,82 @@
+{
+  "name": "demo-pdf-chatbot-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint . --fix",
+    "format": "prettier . --write",
+    "prepare": "husky install",
+    "i18next": "i18next src/**/*"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "botframework-webchat": "^4.15.9",
+    "botframework-webchat-component": "^4.15.9",
+    "classnames": "^2.3.2",
+    "debounce": "^1.2.1",
+    "i18next": "^23.5.1",
+    "i18next-browser-languagedetector": "^7.1.0",
+    "i18next-http-backend": "^2.2.2",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-async-hook": "^4.0.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-i18next": "^13.2.2",
+    "react-spinners": "^0.13.8",
+    "react-textarea-autosize": "^8.5.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.6",
+    "@types/debounce": "^1.2.2",
+    "@types/node": "^16.18.57",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "husky": "^8.0.3",
+    "i18next-hmr": "^3.0.3",
+    "i18next-parser": "^8.7.0",
+    "lint-staged": "^14.0.1",
+    "postcss": "^8.4.30",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "process": "^0.11.10",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.3.3",
+    "type-fest": "^4.3.2",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "**/*.{js,ts,tsx,html}": "eslint --fix"
+  }
+}

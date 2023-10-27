@@ -1,0 +1,50 @@
+{
+  "upload-file-label": "<0><0><0>PDF hochladen</0><1></1></0><1>oder ziehen Sie es hierher</1></0><1>PDF bis zu 10MB</1>",
+  "common": {
+    "accepted-file_one": "accepted files",
+    "accepted-file_other": "accepted files",
+    "clear": "Löschen",
+    "updated-at": "Aktualisiert am",
+    "required": "Erforderlich",
+    "empty-select-placeholder": "Wählen...",
+    "loading": "Laden...",
+    "continue": "Weiter"
+  },
+  "step-upload-pdf": {
+    "title": "PDF Hochladen",
+    "description": "Laden Sie einfach ein PDF mit einigen Seiten Text hoch"
+  },
+  "step-bot-settings": {
+    "title": "Bot Einstellungen",
+    "description": "(optional) customize your bot"
+  },
+  "step-your-chatbot": {
+    "title": "Ihr digitaler Assistent",
+    "description": "Demo Version beschränkt auf 10 Fragen"
+  },
+  "chatbot-input-placeholder": "",
+  "banner": {
+    "contact-us": "<0>Kontaktieren Sie uns </0>für Ihren individuellen, digitalen Assistenten!<2> →</2>"
+  },
+  "hero-section": {
+    "heading": "TESTEN SIE DEN DIGITALEN ASSISTENTEN"
+  },
+  "settings-step": {
+    "prompt-type-select": {
+      "system-option": "System",
+      "custom-option": "Custom",
+      "label": "Choose Prompt Type"
+    },
+    "custom-prompt-input": {
+      "placeholder": "Wählen Sie den Eingabeaufforderungstyp!",
+      "max-char": "Maximale Anzahl an Zeichen: {{count}}"
+    }
+  },
+  "upload-step": {
+    "lang-select": {
+      "label": "Sprache wählen",
+      "placeholder": "Automatische Spracherkennung in der Vollversion"
+    },
+    "agreement-checkbox-label": "Hiermit bestätige ich, dass das Dokument keine personenbezogenen Daten beinhaltet. \n"
+  }
+}

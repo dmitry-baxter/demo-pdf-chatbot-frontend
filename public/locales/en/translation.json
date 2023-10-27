@@ -1,0 +1,50 @@
+{
+  "upload-file-label": "<0><0><0>Upload a file</0><1></1></0><1>or drag and drop</1></0><1>PDF up to 10MB</1>",
+  "common": {
+    "accepted-file_one": "accepted files",
+    "accepted-file_other": "accepted files",
+    "clear": "clear",
+    "updated-at": "updated-at",
+    "required": "this field is required!",
+    "empty-select-placeholder": "Select...",
+    "loading": "Loading...",
+    "continue": "Continue"
+  },
+  "step-upload-pdf": {
+    "title": "Upload PDF",
+    "description": "Just upload a PDF with some pages of text"
+  },
+  "step-bot-settings": {
+    "title": "Bot Settings",
+    "description": "(optional) customize your bot"
+  },
+  "step-your-chatbot": {
+    "title": "Your digital assistant",
+    "description": "demo version 10 questions only"
+  },
+  "chatbot-input-placeholder": "",
+  "banner": {
+    "contact-us": "<0>Contact us </0>for your individual digital assistant!<2> →</2> chatbot@tamerin.tech"
+  },
+  "hero-section": {
+    "heading": "TRY OUR DIGITAL ASSISTANT"
+  },
+  "settings-step": {
+    "prompt-type-select": {
+      "system-option": "System",
+      "custom-option": "Custom",
+      "label": "Choose Prompt Type"
+    },
+    "custom-prompt-input": {
+      "placeholder": "Enter your custom prompt!",
+      "max-char": "Max chars count: {{count}}"
+    }
+  },
+  "upload-step": {
+    "lang-select": {
+      "label": "Choose Language",
+      "placeholder": "Automatic Language Detection in Full Version"
+    },
+    "agreement-checkbox-label": "I hereby confirm that the document does not contain any personal data. \n"
+  }
+}

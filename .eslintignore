@@ -1,0 +1,6 @@
+dist
+public
+.vscode
+.idea
+scripts
+*.config.*
